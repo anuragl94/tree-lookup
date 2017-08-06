@@ -1,0 +1,22 @@
+// This is the top-level scss file. Import all other files in here.
+@import 'search';
+
+body {
+  font-family: Helvetica, Calibri, Roboto;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+body * {
+  box-sizing: inherit;
+}
+
+.demo-area {
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  padding: 8px;
+}

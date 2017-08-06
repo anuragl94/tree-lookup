@@ -1,0 +1,48 @@
+.multi-search {
+  width: 360px;
+  display: inline-block;
+}
+
+.select-options {
+  list-style: none;
+  padding: 0;
+}
+
+.select-option {
+  cursor: pointer;
+}
+
+.select-option.selected {
+  background: green;
+}
+
+.select-option:not(.selected):hover {
+  background-color: whitesmoke;
+}
+
+.cool-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #ececec;
+  transition: border 0.2s ease;
+}
+
+.cool-input:focus {
+  border: 1px solid green;
+}
+
+// Tags
+.selected-tags {
+  padding: 0;
+  list-style: none;
+}
+
+.selected-tag {
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  display: inline-block;
+  margin: 2px;
+}
