@@ -1,4 +1,4 @@
-Android style lock pattern using React & Redux
+Tree lookup API implementation for One.com assignment
 =======================
 
 Boilerplate based on
