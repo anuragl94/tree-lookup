@@ -2,13 +2,18 @@
 @import 'search';
 
 body {
-  font-family: Helvetica, Calibri, Roboto;
+  font-family: Helvetica, Calibri, Ubuntu;
   box-sizing: border-box;
   background-color: whitesmoke;
 }
 
 body * {
   box-sizing: inherit;
+}
+
+.demo-title {
+  font-size: 18px;
+  text-align: center;
 }
 
 .demo-area {
@@ -19,4 +24,8 @@ body * {
   text-align: center;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
   padding: 8px;
+}
+
+.error-message {
+  color: #cb2431;
 }

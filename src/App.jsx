@@ -4,8 +4,11 @@ import {Search} from './components/search.jsx'
 class App extends Component {
   render () {
     return (
-      <div className='demo-area'>
-        <Search />
+      <div>
+        <h2 className='demo-title'>Tree lookup</h2>
+        <div className='demo-area'>
+          <Search />
+        </div>
       </div>
     )
   }
